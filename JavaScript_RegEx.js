@@ -29,3 +29,5 @@ let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /twinkle/gi;
 let result6 = twinkleStar.match(starRegex);
 console.log(result6);
+
+//7:16
