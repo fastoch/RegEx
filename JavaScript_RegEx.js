@@ -1,5 +1,4 @@
 let myString = "FreeCodeCamp";
-
 let RegEx = /freecodecamp/;
 let result = RegEx.test(myString);
 console.log(result); //will return false since RegEx is case sensitive
@@ -21,4 +20,12 @@ let result4 = extractStr.match(codingRegex);
 console.log(result4); 
 
 // Let's find more than the first match
-// 5:38
+let testStr = "Repeat, repeat, repeat";
+let ourRegex = /repeat/gi; //global research + ignore case
+let result5 = testStr.match(ourRegex);
+console.log(result5);
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /twinkle/gi;
+let result6 = twinkleStar.match(starRegex);
+console.log(result6);
